@@ -4,4 +4,4 @@
 
 This repo is for the assignements and the projects of React 18.
 
-**Josh is always high**
+**Josh is always high!**
