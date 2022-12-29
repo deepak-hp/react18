@@ -1,4 +1,4 @@
-const root = document.getElementById("root")
+const jsroot = document.getElementById("jsroot")
 const heading = document.createElement("h2")
 heading.innerHTML = "Hello world from js";
-root.appendChild(heading);
+jsroot.appendChild(heading);
