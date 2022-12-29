@@ -2,6 +2,6 @@
 
 ## _Mentor: Akshay Saini (Namaste React)_
 
-This repo is for the assignements and the projects of React 18.
+This repo is for the assignments and the projects of React 18.
 
 **Josh is always high!**
