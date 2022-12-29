@@ -59,15 +59,15 @@
 
 - The crossorigin content attribute on media elements is a CORS settings attribute.
 
-These attributes are enumerated, and have the following possible values:
+  These attributes are enumerated, and have the following possible values:
 
-`anonymous`
-Request uses CORS headers and credentials flag is set to `'same-origin'`. There is no exchange of user credentials via cookies, client-side SSL certificates or HTTP authentication, unless destination is the same origin.
+  `anonymous`:
+  Request uses CORS headers and credentials flag is set to `'same-origin'`. There is no exchange of user credentials via cookies, client-side SSL certificates or HTTP authentication, unless destination is the same origin.
 
-`use-credentials`
-Request uses CORS headers, credentials flag is set to `'include'` and user credentials are always included.
+  `use-credentials`:
+  Request uses CORS headers, credentials flag is set to `'include'` and user credentials are always included.
 
-`""`
-Setting the attribute name to an empty value, like `crossorigin` or `crossorigin=""`, is the same as `anonymous`.
+  `""`:
+  Setting the attribute name to an empty value, like `crossorigin` or `crossorigin=""`, is the same as `anonymous`.
 
-An invalid keyword and an empty string will be handled as the `anonymous` keyword.
+  An invalid keyword and an empty string will be handled as the `anonymous` keyword.
