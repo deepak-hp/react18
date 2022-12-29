@@ -71,3 +71,17 @@
   Setting the attribute name to an empty value, like `crossorigin` or `crossorigin=""`, is the same as `anonymous`.
 
   An invalid keyword and an empty string will be handled as the `anonymous` keyword.
+
+  # What is difference between [React and ReactDOM](https://www.geeksforgeeks.org/how-react-and-reactdom-works/)?
+
+  - React library is responsible for creating views
+
+  - ReactDOM library is responsible to actually render UI in the browser.
+
+# What is difference between [react.development.js and react.production.js](https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs) files via CDN?
+
+- The very basic difference is that Production Build has ugly, minified(compressed) version of your javascript code, so this makes rendering of file on end user's browser very quick and performance enhancing.
+
+- The production and development build come into the picture just because of performance impact in real life deployed the application. Also, it happens that the location where the application is deployed is another continent altogether, so rendering development build js files on UI will take a hell of a time as compared to production version which is very crisp, compact, compressed, uglified for better user experience and loading on UI.
+
+- more [Info](https://reactjs.org/docs/optimizing-performance.html)
