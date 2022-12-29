@@ -85,3 +85,11 @@
 - The production and development build come into the picture just because of performance impact in real life deployed the application. Also, it happens that the location where the application is deployed is another continent altogether, so rendering development build js files on UI will take a hell of a time as compared to production version which is very crisp, compact, compressed, uglified for better user experience and loading on UI.
 
 - more [Info](https://reactjs.org/docs/optimizing-performance.html)
+
+# What is [async and defer](https://www.youtube.com/watch?v=IrHmpdORLu8)?
+
+?[async and defer representation](https://i.stack.imgur.com/pI1Wn.png)
+
+- `async` will fetch the js file in parallel while parsing HTML and once the file is fetched the HTML parsing is paused and the js scripts are executed with the guarantee of the order of execution and once it executed the HTML parsing is resumed.
+
+- `defer` will fetch the js file in parallel while parsing the HTML and once the HTML is parsed completely then the scripts are executed in the given order.
