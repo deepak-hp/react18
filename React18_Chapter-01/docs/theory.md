@@ -88,7 +88,7 @@
 
 # What is [async and defer](https://www.youtube.com/watch?v=IrHmpdORLu8)?
 
-?[async and defer representation](https://i.stack.imgur.com/pI1Wn.png)
+![async and defer representation](https://i.stack.imgur.com/pI1Wn.png)
 
 - `async` will fetch the js file in parallel while parsing HTML and once the file is fetched the HTML parsing is paused and the js scripts are executed with the guarantee of the order of execution and once it executed the HTML parsing is resumed.
 
