@@ -72,11 +72,11 @@
 
   An invalid keyword and an empty string will be handled as the `anonymous` keyword.
 
-  # What is difference between [React and ReactDOM](https://www.geeksforgeeks.org/how-react-and-reactdom-works/)?
+# What is difference between [React and ReactDOM](https://www.geeksforgeeks.org/how-react-and-reactdom-works/)?
 
-  - React library is responsible for creating views
+- React library is responsible for creating views
 
-  - ReactDOM library is responsible to actually render UI in the browser.
+- ReactDOM library is responsible to actually render UI in the browser.
 
 # What is difference between [react.development.js and react.production.js](https://stackoverflow.com/questions/48151128/difference-between-production-and-development-build-in-reactjs) files via CDN?
 
