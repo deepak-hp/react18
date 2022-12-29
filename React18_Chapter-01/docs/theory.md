@@ -26,3 +26,13 @@
     </ul>
 </div>
 ```
+
+# [Difference between a Library and Framework?](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)
+
+- Both frameworks and libraries are code written by someone else that is used to help solve common problems.
+
+- A library is like going to Ikea. You already have a home, but you need a bit of help with furniture. You don’t feel like making your own table from scratch. Ikea allows you to pick and choose different things to go in your home. You are in control.
+
+- A framework, on the other hand, is like building a model home. You have a set of blueprints and a few limited choices when it comes to architecture and design. Ultimately, the contractor and blueprint are in control. And they will let you know when and where you can provide your input.
+
+- A framework inverts the control of the program. It tells the developer what they need. A library doesn’t. The programmer calls the library where and when they need it.
