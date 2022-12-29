@@ -27,7 +27,7 @@
 </div>
 ```
 
-# [Difference between a Library and Framework?](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)
+# Difference between a [Library and Framework](https://www.freecodecamp.org/news/the-difference-between-a-framework-and-a-library-bd133054023f/)?
 
 - Both frameworks and libraries are code written by someone else that is used to help solve common problems.
 
