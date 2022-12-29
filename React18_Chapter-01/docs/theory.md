@@ -37,7 +37,7 @@
 
 - A framework inverts the control of the program. It tells the developer what they need. A library doesn’t. The programmer calls the library where and when they need it.
 
-# What is CDN? Why do we use it?
+# What is [CDN](https://www.youtube.com/watch?v=Bsq5cKkS33I)? [Why](https://gtmetrix.com/why-use-a-cdn.html) do we use it?
 
 - A CDN is a network of servers that distributes content from an “origin” server throughout the world by caching content close to where each end user is accessing the internet via a web-enabled device. The content they request is first stored on the origin server and is then replicated and stored elsewhere as needed.
 
