@@ -55,4 +55,4 @@
 
 # What is [crossorigin](https://developer.mozilla.org/en-US/docs/Web/HTML/Attributes/crossorigin) in script tag?
 
-- The crossorigin attribute, valid on the `sh <audio>, <img>, <link>, <script>, and <video> ` elements, provides support for CORS, defining how the element handles cross-origin requests, thereby enabling the configuration of the CORS requests for the element's fetched data. Depending on the element, the attribute can be a CORS settings attribute.
+- The crossorigin attribute, valid on the `<audio>, <img>, <link>, <script>, and <video>` elements, provides support for CORS, defining how the element handles cross-origin requests, thereby enabling the configuration of the CORS requests for the element's fetched data. Depending on the element, the attribute can be a CORS settings attribute.
