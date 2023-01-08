@@ -35,10 +35,22 @@
 
 # What is difference between `dependencies` vs `devDependencies`?
 
-- `dependencies`
+`dependencies`
 
-- `devDependencies`
+- dependencies are the packages which require to run the application in production.
+
+`devDependencies`
+
+- devDependencies are the packages which are used only to build the application in local dev environment amd testing.
 
 # What is `Tree Shaking`?
 
+- Tree shaking is a technique used to eliminate the unused code (dead code).
+- the unused code or modules will not be included by the bundler during the build process with the help of minifiers. Webpack/Parce bundlers comes with minifiers. we can use jsMin, uglify-js and many more.
+- Tree shaking will also reduce the code size.
+
 # What is `Hot Module Replacement`?
+
+- this is an algorithm which does the live updates of the code changes on the web app without the need of a full refresh.
+- HRM works by watching the files (file watcher algorithm), if any files changes in the project it will automatically updates the browser.
+- this allows for quicker development times.
