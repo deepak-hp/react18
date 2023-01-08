@@ -18,3 +18,26 @@
     }
 }
 ```
+
+# What are the Advantages of JSX in React (superpowers of JSX)?
+
+- Simplicity of code
+- Faster than normal Javascript (optimized translation into regular javascript)
+- Easy to debug
+- Easy to use if one knows HTML
+
+# Role of `type` attribute in script tag? What options can I use there?
+
+- This indicates the type of script represented by the element.
+
+```
+<script type="text/javascript">
+    const root = document.getElementById("root");
+</script>
+```
+
+- options
+  - "text/javascript" is a classic script,
+  - "module" javascript module(es6)
+  - "application/ecmascript"
+  - other [MIME type](http://www.iana.org/assignments/media-types/media-types.xhtml)
