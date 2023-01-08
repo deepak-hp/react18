@@ -41,3 +41,17 @@
   - "module" javascript module(es6)
   - "application/ecmascript"
   - other [MIME type](http://www.iana.org/assignments/media-types/media-types.xhtml)
+
+# `{TitleComponent}`vs `{<TitleComponent/>}` vs `{<TitleComponent></TitleComponent>}` in JSX
+
+`{TitleComponent}`:
+
+- Anything which we write inside the {} is javascript expression so TitleComponent is a variable which is holding a JSX component.
+
+`{<TitleComponent/>}`:
+
+- This is a self closing React Component (function) which returns some JSX.
+
+`{<TitleComponent></TitleComponent>}`
+
+- This is similar to the above one but we can have the children within the opening and closing tag.
