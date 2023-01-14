@@ -8,10 +8,12 @@
 
 # How to write a comment in JSX?
 
-- `{/* */}` is used for both single and multiline comment in JSX
-  ex: - `{/* <div>This element is commented</div> */}`
-  - ```{/* <li>Home</li>
-      <li>About</li>
-      <li>Contact Us</li>
-      <li>Cart</li> */}
-    ```
+`{/* */}` is used for both single and multiline comment in JSX
+ex:
+
+- `{/* <div>This element is commented</div> */}`
+- ```{/* <li>Home</li>
+    <li>About</li>
+    <li>Contact Us</li>
+    <li>Cart</li> */}
+  ```
