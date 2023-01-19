@@ -42,9 +42,10 @@ import { anotherFn as aFn } from "./file_1.js
 
 - Import all the named export onto an object.
   ex:
-  import \* as Menu from "./MenuComponent";
 
 ```jsx
+import \* as Menu from "./MenuComponent";
+
 <Menu.Container>
   <Menu.Item />
   <Menu.Item />
