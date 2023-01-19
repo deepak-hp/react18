@@ -1,6 +1,6 @@
-# [What is the difference between Named Export, Default export and \* as export](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910)?
+# [What is the difference between Named Export, Default export and \* as export?](https://medium.com/@etherealm/named-export-vs-default-export-in-es6-affb483a0910)
 
-### Named Export:
+### `Named Export`:
 
 - We can have multiple exports per file.
 - To import specific exports they want to be enclosed within braces.
@@ -38,7 +38,7 @@ import { anotherFn as aFn } from "./file_1.js
 
 ```
 
-### \* as:
+### `\* as`:
 
 - Import all the named export onto an object.
   ex:
@@ -52,7 +52,7 @@ import { anotherFn as aFn } from "./file_1.js
 </Menu.Container>
 ```
 
-### Default Export:
+### `Default Export`:
 
 - Only one default export per file. while importing we have to specify a name.
 
@@ -72,8 +72,8 @@ export default fn;
 
 ##### file_2.js
 
+- import the module with any name you wish.
+
 ```
 import addFn from "./file_1.js";
 ```
-
--
