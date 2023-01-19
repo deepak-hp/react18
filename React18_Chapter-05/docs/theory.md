@@ -28,29 +28,28 @@ export const anotherFn = () => {
 
 ```js
 //single import
-import { fn, anotherFn } from "./file_1.js"
+import { fn, anotherFn } from './file_1.js';
 
 // multiple import
-import { fn, anotherFn } from "./file_1.js"
+import { fn, anotherFn } from './file_1.js';
 
 // Named import aliasing (importing a named export with a different name using `as` keyword)
-import { anotherFn as aFn } from "./file_1.js
-
+import { anotherFn as aFn } from './file_1.js';
 ```
 
-### `\* as`:
+### `* as`:
 
 - Import all the named export onto an object.
   ex:
 
 ```jsx
-import \* as Menu from "./MenuComponent";
+import * as Menu from './MenuComponent';
 
 <Menu.Container>
   <Menu.Item />
   <Menu.Item />
   <Menu.Item />
-</Menu.Container>
+</Menu.Container>;
 ```
 
 ### `Default Export`:
