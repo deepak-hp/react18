@@ -107,8 +107,16 @@ import addFn from './file_1.js';
 
 ex:
 
-```js
+```jsx
 import React, { useState } from 'react';
 
-const [state, setState] = useState('hello react');
+const MyComponent = () => {
+  const [state, setState] = useState('hello react');
+  setState('Hello World!'); // update the state and rerenders
+
+  const [count, setCount] = useState(0);
+  setCount((prev) => prev + 1); // prev contains the previous state value
+
+  return <div>{state}</div>;
+};
 ```
