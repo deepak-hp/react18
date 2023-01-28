@@ -25,7 +25,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    gap: 4px;
+    gap: 6px;
 }
 
 .searchInput{
@@ -36,6 +36,14 @@
     font-size: 16px;
     border: 2px solid var(--secondary);
     border-radius: 6px;
+}
+
+.searchButton{
+    padding: 6px 4px;
+    border-radius: 4px;
+    border: none;
+    background-color: #e9c46a;
+
 }
 
 .navItems{

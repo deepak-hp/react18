@@ -4,10 +4,11 @@ import Card from "../Card";
 
 const Body = () => {
     const [restaurants, setRestaurants] = useState(restaurantList);
+    console.log("render body");
     const handleSearch = (term) => {
         if (term) {
             const filteredList = restaurantList.filter((res) => {
-                if (res.data.name.includes(term.trim())) return res;
+                if (res?.data?.name?.toLowerCase()?.includes(term.trim().toLowerCase())) return res;
             })
             if (filteredList.length)
                 setRestaurants(filteredList);
