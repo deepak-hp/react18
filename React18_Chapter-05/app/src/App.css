@@ -26,9 +26,6 @@
     align-items: center;
     justify-content: center;
     gap: 4px;
-    border: 2px solid var(--secondary);
-    border-radius: 4px;
-    background-color: var(--secondary);
 }
 
 .searchInput{
@@ -37,6 +34,8 @@
     background-color: transparent;
     color: var(--primary-text-color);
     font-size: 16px;
+    border: 2px solid var(--secondary);
+    border-radius: 6px;
 }
 
 .navItems{
@@ -52,8 +51,11 @@
 }
 
 .section{
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
     height: 100%;
-    padding-inline: 36px;
+    padding-inline: 278px;
     padding-block: 24px;
 }
 
@@ -69,7 +71,7 @@
     border: 2px solid var(--secondary-text-color);
     padding: 12px 6px;
     border-radius: 6px;
-    width: 17.5%;
+    width: 22%;
     display: flex;
     flex-direction: column;
     gap: 12px;
