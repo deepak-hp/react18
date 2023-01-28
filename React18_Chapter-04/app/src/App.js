@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/cater_factory.jpg';
+import { IMG_BASE_URL, restaurantList } from "./config"
 import './App.css';
 
 const Logo = () => {
@@ -43,46 +44,28 @@ const Header = () => {
 const Section = () => {
     return (
         <div className='section'>
+
             <div className="listContainer">
                 {restaurantList.map((restaurant) => (
-                    <Card key={restaurant.id} id={restaurant.id} name={restaurant.name} rating={restaurant.rating} />
+                    <Card key={restaurant?.data?.id} restaurant={restaurant?.data} />
                 ))}
             </div>
         </div>
     );
 };
 
-const Card = (props) => {
-    const { id, name, rating, ...rest } = props;
+const Card = ({ restaurant, ...rest }) => {
+    const { name, cuisines, avgRating, cloudinaryImageId, ...rest } = props;
+    const imgURL = `${IMG_BASE_URL}${cloudinaryImageId}`
     return (
         <div className='cardContainer'>
-            <img src="" alt="" width="60px" height="40px" />
+            <img className="cardImage" src={imgURL} alt="" width="60px" height="40px" />
             <h2>{name}</h2>
-            <h3>{rating}</h3>
+            <h3>{cuisines.join(",")}</h3>
+            <h4>{avgRating}</h4>
         </div>
     )
 }
-
-const restaurantList = [
-    {
-        id: 'A1',
-        name: 'A',
-        tags: ['Burger', 'Fries'],
-        rating: 4,
-    },
-    {
-        id: 'B1',
-        name: 'B',
-        tags: ['Soup', 'Chicken'],
-        rating: 3.5,
-    },
-    {
-        id: 'C1',
-        name: 'C',
-        tags: ['Pizza', 'Soda'],
-        rating: 4.5,
-    },
-];
 
 const Footer = () => {
     return (
