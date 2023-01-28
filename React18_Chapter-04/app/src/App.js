@@ -55,10 +55,10 @@ const Section = () => {
 };
 
 const Card = ({ restaurant, ...rest }) => {
-    const { name, cuisines, avgRating, cloudinaryImageId, ...rest } = props;
+    const { name, cuisines, avgRating, cloudinaryImageId } = restaurant;
     const imgURL = `${IMG_BASE_URL}${cloudinaryImageId}`
     return (
-        <div className='cardContainer'>
+        <div className='cardContainer' {...rest}>
             <img className="cardImage" src={imgURL} alt="" width="60px" height="40px" />
             <h2>{name}</h2>
             <h3>{cuisines.join(",")}</h3>
