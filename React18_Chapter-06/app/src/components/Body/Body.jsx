@@ -44,7 +44,12 @@ const Body = () => {
     }
 
     if (restaurants?.length === 0) {
-        return <Shimmer />
+        return <div className="section">
+            <div className="shimmerContainer">
+                <Shimmer />
+            </div>
+        </div>
+
     }
     console.log(filteredRestaurants);
 
