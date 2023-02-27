@@ -60,7 +60,7 @@ const Body = () => {
     return (
         <div className='section'>
             <SearchBar handleSearch={handleSearch} />
-            <div className="listContainer">
+            <div className="listContainer sm:bg-blue-50 md:bg-yellow-50 lg:bg-red-50">
                 {filteredRestaurants.length >= 0 ? filteredRestaurants.map((restaurant) => (
                     <Card key={restaurant?.data?.id} restaurant={restaurant?.data} />
                 ))
