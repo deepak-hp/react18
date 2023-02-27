@@ -78,7 +78,7 @@ export const SearchBar = ({ handleSearch }) => {
         <div className='search'>
             <span className='searchIcon'>🔍</span>
             <input value={term} onChange={(e) => setTerm(e.target.value)} className='searchInput' type='text' placeholder='search...' />
-            <button className="searchButton" onClick={() => handleSearch(term)}>Search</button>
+            <button className="searchButton hover:bg-[#e76f51]" onClick={() => handleSearch(term)}>Search</button>
         </div>
     );
 };
